@@ -172,6 +172,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += vendor/mini-v/ai/sepolicy/vendor
 
 # MINI-V AI framework sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += frameworks/mini-v/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += frameworks/mini-v/sepolicy/public
 
 # SEPolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
